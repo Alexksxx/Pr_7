@@ -1,0 +1,87 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+.block__one {
+	display:block;
+	max-width: 1053px;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+.one__logotext {
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding-left: 33px;
+	font-weight: 700;
+	font-size: 12px;
+	margin-bottom: 33px;
+	background: url('../img/overline_mark.png') 0px -2px no-repeat;
+}
+.one__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	margin-bottom: 68px;
+}
+.one__one,
+.one__two,
+.one__three {
+	padding-left: 86px;
+	margin-right: 24px;
+	display: inline-block;
+	max-width: 324px;
+}
+.one__minititle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #02133C;
+}
+.one__one {
+	background: url('../img/car_quality_service_24x.png') 0px 0px no-repeat;
+}
+.one__two {
+	background: url('../img/car_certified_pros_24x.png') 0px 0px no-repeat;
+}
+.one__three {
+	background: url('../img/car_team_24x.png') 0px 0px no-repeat;
+}
+.oneblock {
+padding: 100px;
+max-width: 600px;
+background-image: url("../img/picture.jpg");
+background-position: -100px 0px;
+background-attachment: fixed;
+margin-bottom: 100px;
+}
+.oneline {
+background-image: linear-gradient(to bottom, rgba(50,57,255,1) 0%,rgba(255,246,0,1) 100%);
+line-height: 30px;
+}
+.twoline{
+	background-image: url("../img/picture.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*нихуя не работает у строчных */
+}
+.twoblock{
+		background-image: url('../img/overline_mark.png');
+	/* background-repeat: no-repeat; */
+	/* background-position: 50%; */
+	background-attachment: fixed;
+	max-width: 500px;
+	padding: 30px;
+}
+.chlen{
+	margin-top: 50px;
+}
+li{
+	padding: 9px 0px 0px 30px;
+	margin: 0px 0px 20px 0px;
+	background: url('../img/overline_mark.png') 0px 0px/40px 40px no-repeat;
+}
+ul{
+	margin: 20px 0px 0px 0px;
+}
+.izn{
+	width: 200px;
+	background: url("../img/overline_mark.png") 0px 0px no-repeat, #000 url('../img/overline_mark.png') 50%/cover no-repeat;
+}
